@@ -26,13 +26,21 @@ git clone https://github.com/sgxgsx/ViberOSINT.git
 ### Examples
 
 
-* send a single phone number to a viber channel as a contact
+* send a single phone number to a viber channel as a contact **(this phone number has a registered Viber account)**
 
 ```
 
-python3 viber_contacts.py --phone +498002858585
+python3 viber_contacts.py --phone +79124538669
 
 ```
+
+* send a single phone number to a viber channel as a contact **(this phone number doesn't have a registered Viber account associated with it)**
+
+```
+python3 viber_contacts.py --phone +79124538670
+
+```
+
 
 * send phones in bulk
 
@@ -42,13 +50,21 @@ python3 viber_contacts --list phones.txt
 
 ```
 
+
+
 ### After you ran a script:
 
 * Open Viber Desktop and go to your VIBER channel
-* Sometimes VIBER doesn't want to resolve contacts automatically, that's why you might need to do it manually or wait
-* Account is unresolved if its name is still "a"
+* Mostly always VIBER doesn't want to resolve contacts automatically, that's why you might need to do it manually or wait
+* **Account is unresolved if its name is still "a"**
+
+![alt text](https://github.com/sgxgsx/ViberOSINT/images/notshown.png?raw=true)
+
 * In order to manually resolve the accounts you need to:
 * Click on the "a" name on a popup contact. It'll take you to another view where the name of this contact would change
-* If the name is a phone number and profile picture hasn't changed - it means that this phone number is not on Viber
-* Otherwise, you'll see that the name of the contact is updated or you'll see a profile picture
+* **If the name is a phone number and profile picture hasn't changed - it means that this phone number is not on Viber**
+![alt text](https://github.com/sgxgsx/ViberOSINT/images/notonviber.png?raw=true)
+* **Otherwise, you'll see that the name of the contact is updated or you'll see a profile picture**
+![alt text](https://github.com/sgxgsx/ViberOSINT/images/onviber.png?raw=true)
+
 
