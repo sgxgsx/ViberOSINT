@@ -22,7 +22,7 @@ def get_account_info():
     r = requests.post("https://chatapi.viber.com/pa/get_account_info", json={"auth_token": CONFIG['token']})
     if r.status_code == 200:
         print(r.json())
-        return r.json()["id"]
+        return r.json()["members"][0]["id"]
     else:
         return None
 
