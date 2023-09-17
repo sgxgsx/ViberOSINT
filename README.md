@@ -12,6 +12,7 @@ Overall it helps you with your Open Source Intelligence (OSINT) workflow on Mess
 ```
 git clone https://github.com/sgxgsx/ViberOSINT.git
 
+pip install -r requirements.txt
 ```
 
 #### Token
