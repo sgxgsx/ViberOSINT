@@ -63,8 +63,11 @@ python3 viber_contacts --list phones.txt
 * In order to manually resolve the accounts you need to:
 * Click on the "a" name on a popup contact. It'll take you to another view where the name of this contact would change
 * **If the name is a phone number and profile picture hasn't changed - it means that this phone number is not on Viber**
+
 ![alttext](https://github.com/sgxgsx/ViberOSINT/blob/main/images/notonviber.png?raw=true)
+
 * **Otherwise, you'll see that the name of the contact is updated or you'll see a profile picture**
+
 ![alt text](https://github.com/sgxgsx/ViberOSINT/blob/main/images/onviber.png?raw=true)
 
 
