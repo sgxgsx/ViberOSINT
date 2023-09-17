@@ -5,6 +5,8 @@ This is a small script that helps you to automatically send phone numbers in bul
 There's no need in sharing your contacts with Viber.
 Overall it helps you with your Open Source Intelligence (OSINT) workflow on Messangers - specifically Viber.
 
+**It's not a full automation, you will need to do some things manually, but overall it saves more time by automating the most time consuming and dull task - adding phone numbers to the contact book**
+
 ### Install
 
 ```
@@ -40,5 +42,13 @@ python3 viber_contacts --list phones.txt
 
 ```
 
+### After you ran a script:
 
+* Open Viber Desktop and go to your VIBER channel
+* Sometimes VIBER doesn't want to resolve contacts automatically, that's why you might need to do it manually or wait
+* Account is unresolved if its name is still "a"
+* In order to manually resolve the accounts you need to:
+* Click on the "a" name on a popup contact. It'll take you to another view where the name of this contact would change
+* If the name is a phone number and profile picture hasn't changed - it means that this phone number is not on Viber
+* Otherwise, you'll see that the name of the contact is updated or you'll see a profile picture
 
